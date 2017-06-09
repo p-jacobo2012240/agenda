@@ -1,0 +1,5 @@
+	-Procedimientos Almacenados
+	-Menos Triger
+	-NO lOG OUT
+	-Si login
+	-Vistas
