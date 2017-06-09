@@ -1,0 +1,24 @@
+<% include layout %>
+<div class="row">
+  <div class="col-md-4 col-md-offset-4">
+    <h2>Registrar</h2>
+    <form action="/registrar" method="post">
+      <div class="form-group">
+        <input type="text" name="nick" id="nick" class="form-control"
+        required placeholder="Ingrese su nick">
+      </div>
+
+      <div class="form-group">
+        <input type="password" name="clave" id="clave" class="form-control"
+        required placeholder="Ingrese la contraseña">
+      </div>
+
+      <div class="form-group">
+        <div class="btn-group">
+          <button type="submit" class="btn btn-success">Registrar</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+<% include footer %>
